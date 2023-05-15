@@ -1,0 +1,125 @@
+% start S
+
+# Grammar Rules
+
+S -> NPsg VPsg
+
+S -> NPpl VPpl
+
+NPsg -> D Nsg
+
+NPpl -> D Npl
+
+NPpl -> Npl
+
+Nsg -> A Nsg
+
+Npl -> A Npl
+
+VPsg -> Vsg NPsg
+
+VPsg -> Vsg NPpl
+
+VPpl -> Vpl NPsg
+
+VPpl -> Vpl NPpl
+
+# Lexical Rules
+
+ADV_s1s2s0 -> 'publicly'
+ADV_s1s2s0 -> 'blatantly'
+ADV_s1s0 -> 'pronto'
+
+A_s0s1 -> 'unharmed'
+A_s0s1 -> 'resolved'
+A_s0s1s0 -> 'abhorrent'
+A_s1 -> 'hoar'
+A_s2s1 -> 'malformed'
+A_s1 -> 'shorn'
+A_s1 -> 'loud'
+A_s0s1 -> 'deprived'
+A_s1s2 -> 'knifelike'
+A_s0s1s0 -> 'rewired'
+A_s1s0 -> 'lowered'
+A_s1s0 -> 'modern'
+A_s1s2 -> 'prepaid'
+A_s0s1 -> 'cliched'
+A_s1s2 -> 'upscale'
+A_s1s2 -> 'squeaky'
+A_s1s2s0 -> 'disowned'
+A_s1 -> 'cooked'
+A_s2s0s1 -> 'understood'
+
+D_s0 -> 'the'
+
+Vpls2s1 -> 'enlarge'
+Vpl_s0s1 -> 'remark'
+Vsg_s0s1 -> 'remarks'
+Vpl_s1 -> 'bask'
+Vsg_s1 -> 'basks'
+Vpl_s0s1 -> 'replant'
+Vsg_s0s1 -> 'replants'
+Vpl_s1 -> 'catch'
+Vpl_s1s2 -> 'reroute'
+Vpl_s1 -> 'rouse'
+Vpl_s1 -> 'mount'
+Vpl_s0s1 -> 'devise'
+Vpl_s1s0s2 -> 'privatize'
+Vpl_s1 -> 'bribe'
+Vpl_s1s0s2 -> 'modernize'
+Vpl_s2s0s1 -> 'reunite'
+Vpl_s0s1 -> 'apprise'
+Vsg_s1s0 -> 'thunders'
+Vpl_s0s1 -> 'replace'
+Vpl_s1s0s2 -> 'acclimate'
+Vpl_s2s1s0 -> 'dislocate'
+Vpl_s2s1 -> 'escape'
+Vpl_s1s2 -> 'downplay'
+Vpl_s0s1 -> 'delete'
+Vpl_s0s1 -> 'purloin'
+Vpl_s0s1 -> 'endure'
+Vpl_s1 -> 'croon'
+Vpl_s0s1 -> 'remove'
+
+
+Nsg_s1s0 -> 'snowfall'
+Nsg_s1 -> 'wasp'
+Nsg_s1s0 -> 'woodland'
+Npl_s1 -> 'ads'
+Nsg_s1 -> 'fad'
+Nsg_s1s2 -> 'walnut'
+Nsg_s1s2 -> 'credence'
+Nsg_s1s0 -> 'puma'
+Npl_s1 -> 'frauds'
+Npl_s1s0 -> 'meatballs'
+Nsg_s1s2 -> 'billboard'
+Npl_s1 -> 'thorns'
+Nsg_s1s2 -> 'bloodhound'
+Nsg_s1s2 -> 'hometown'
+Npl_s1 -> 'chimes'
+Npl_s1s2 -> 'aspects'
+Nsg_s1 -> 'flare'
+Nsg_s1s2 -> 'sleepwear'
+Nsg_s2s1 -> 'pipette'
+Npl_s1s2s0 -> 'harvesters'
+Nsg_s1s0 -> 'gander'
+Npl_s1s2s0 -> 'prisoners'
+Nsg_s1s0 -> 'trimmer'
+Npl_s2s1 -> 'blockades'
+Npl_s1s2 -> 'hallways'
+Nsg_s1s0s2 -> 'hurricane'
+Nsg_s1 -> 'lace'
+Nsg_s1 -> 'cream'
+Nsg_s1s2s0 -> 'blackberry'
+Npl_s1 -> 'yolks'
+Nsg_s1s0 -> 'sorrow'
+Npl_s0s1s0 -> 'potatoes'
+Nsg_s1 -> 'boy'
+Npl_s1s0 -> 'tabloids'
+Nsg_s1 -> 'soy'
+Npl_s1 -> 'wolves'
+Npl_s1s2 -> 'scrapbooks'
+Nsg_s1 -> 'rook'
+Nsg_s1 -> 'loon'
+Nsg_s1s2 -> 'lawsuit'
+Npl_s1 -> 'troops'
